@@ -1,0 +1,38 @@
+.loginPageContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #282c34;
+    color: rgb(119, 168, 252);
+    text-align: center;
+    font-size: 2rem;
+  }
+
+.userInput {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.username,
+.password {
+    padding: 5px;
+    color: white !important;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.forgotPassword {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+    text-align: center;
+}

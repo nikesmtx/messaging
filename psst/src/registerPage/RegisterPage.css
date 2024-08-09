@@ -1,0 +1,38 @@
+.registerPageContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header {
+    background-color: #282c34;
+    color: rgb(119, 168, 252);
+    text-align: center;
+    font-size: 1rem;
+}
+
+.inputFields {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.registerButton,
+.returnButton {
+    margin: 0 15px 0 5px !important;
+
+}
+
+.registerLink,
+.returnLink {
+    color: white;
+    text-decoration: none;
+}
